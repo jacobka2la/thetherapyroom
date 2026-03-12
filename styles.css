@@ -496,3 +496,40 @@ ul.clean li + li { margin-top: 0.25rem; }
   .card, .form-panel, .info-card, .timeline-step, .highlight { padding: 1.2rem; }
   .hero h1 { font-size: clamp(2.7rem, 13vw, 4rem); }
 }
+.therapist-profile{
+  display:flex;
+  align-items:center;
+  gap:40px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.therapist-photo{
+  flex:0 0 240px;
+  display:flex;
+  justify-content:center;
+}
+
+.therapist-photo img{
+  width:220px;
+  height:220px;
+  object-fit:cover;
+  border-radius:50%;
+  border:6px solid rgba(255,255,255,0.8);
+  box-shadow:0 12px 30px rgba(0,0,0,0.12);
+}
+
+.therapist-text{
+  flex:1;
+}
+
+@media (max-width: 820px){
+  .therapist-profile{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .therapist-photo{
+    flex:0 0 auto;
+  }
+}
