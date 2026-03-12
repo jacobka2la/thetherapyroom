@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request Consultation | The Therapy Room LLC</title>
+  <meta name="description" content="The Therapy Room LLC offers calm, compassionate therapy care in West Bloomfield with in-person and telehealth support." />
+  <link rel="icon" type="image/png" href="../assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/">
+        <img src="../assets/logo.png" alt="The Therapy Room LLC logo" />
+        <div class="brand-text">
+          <strong>The Therapy Room</strong>
+          <span>Gloria Yousif, MA, LLP</span>
+        </div>
+      </a>
+      <button class="mobile-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+        ☰
+      </button>
+      <nav class="nav-links" data-nav-links>
+        <a href="/" class="">About The Therapy Room</a><a href="/specialties/" class="">Specialties</a><a href="/our-approach/" class="">Our Approach</a><a href="/why-choose-us/" class="">Why Choose Us</a><a href="/request-consultation/" class="active">Request Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero compact">
+      <div class="hero-media"><img src="../assets/contact-bg.jpg" alt="" /></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="badge reveal">Let's Connect</div>
+        <h1 class="reveal">Request a Consultation</h1>
+        <p class="lead reveal">Call Gloria Yousif at 248-788-6096 for a free 15-minute consultation, or use the contact form below to send a request online.</p>
+        
+      </div>
+    </section>
+    
+<section class="section">
+  <div class="container contact-layout">
+    <div class="form-panel reveal">
+      <form action="https://formspree.io/f/mrbkzkyy" method="POST" data-contact-form>
+        <input type="hidden" name="_subject" value="New Therapy Room consultation request" />
+        <div class="field-grid">
+          <div><label for="name">Full Name *</label><input id="name" name="name" required maxlength="100" placeholder="Your full name"></div>
+          <div><label for="email">Email Address *</label><input type="email" id="email" name="email" required maxlength="255" placeholder="you@example.com"></div>
+        </div>
+        <div class="field-grid" style="margin-top:1rem;">
+          <div><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required maxlength="20" placeholder="(248) 555-1234"></div>
+          <div><label for="sessionPreference">Session Preference *</label><select id="sessionPreference" name="sessionPreference" required><option value="">Select an option</option><option>In Person</option><option>Telehealth</option><option>Open to Either</option></select></div>
+        </div>
+        <div style="margin-top:1rem;"><label for="concerns">Main Concern *</label><select id="concerns" name="concerns" required><option value="">Select a main concern</option><option>Anxiety</option><option>Depression</option><option>Stress</option><option>Addiction</option><option>Behavioral Concerns</option><option>Developmental Concerns</option><option>Life Challenges</option><option>Other</option></select></div>
+        <div style="margin-top:1rem;"><label for="message">How can we help? *</label><textarea id="message" name="message" required maxlength="1000" placeholder="Share a little about what you are experiencing and what kind of support you are looking for."></textarea></div>
+        <div style="margin-top:1rem;"><label for="insurance">Insurance Provider</label><input id="insurance" name="insurance" maxlength="120" placeholder="Blue Cross, Medicaid, Priority Health, etc."></div>
+        <div class="actions" style="margin-top:1.4rem;"><button class="btn btn-primary" type="submit">Request Consultation</button></div>
+        <div class="form-status" data-form-status></div>
+        <p class="form-note">This form is already connected to your Formspree endpoint.</p>
+      </form>
+    </div>
+    <div class="contact-stack">
+      <article class="info-card reveal"><h3>Practice Information</h3><p><strong>The Therapy Room LLC</strong><br>Gloria Yousif, MA, LLP<br>5640 West Maple Road, Ste. 205<br>West Bloomfield, MI 48322<br><a href="tel:2487886096">248-788-6096</a><br>Available both in-person and online</p></article>
+      <article class="info-card reveal"><h3>Additional Provider</h3><p><strong>Dr Lindsay Najor, PsyD LLP</strong><br>5640 West Maple Road, Ste. 205<br>West Bloomfield, MI 48322<br><a href="tel:2488205091">248-820-5091</a></p></article>
+      <article class="info-card reveal"><h3>Accepted Insurance & Payment</h3><p><strong>Payment Methods</strong><br>Cash, Check, Discover, Mastercard, Venmo, Visa</p><ul class="clean"><li>Blue Care Network</li><li>Blue Cross</li><li>Blue Shield</li><li>BlueCross and BlueShield</li><li>Medicaid</li><li>Priority Health</li><li>UnitedHealthcare UHC | UBH</li></ul></article>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="../assets/logo.png" alt="The Therapy Room LLC logo" />
+          <div>
+            <strong>The Therapy Room</strong>
+            <p>Compassionate therapy care in West Bloomfield, Michigan.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links"><a href="/">About The Therapy Room</a><a href="/specialties/">Specialties</a><a href="/our-approach/">Our Approach</a><a href="/why-choose-us/">Why Choose Us</a><a href="/request-consultation/">Request Consultation</a></div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>5640 West Maple Road, Ste. 205<br>West Bloomfield, MI 48322</p>
+        <p><a href="tel:2487886096">248-788-6096</a><br><a href="tel:2488205091">248-820-5091</a></p>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 The Therapy Room LLC. All rights reserved.</div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
